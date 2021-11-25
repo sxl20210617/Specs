@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'WebKit', 'SystemConfiguration'
 
   s.preserve_paths = "BDNovelOpenSDK/include/*","BDNovelOpenSDK/include/**/*","BDNovelOpenSDK/other/*","BDNovelOpenSDK/other/**/*","BDNovelOpenSDK/novel/*"
-  s.ios.vendored_libraries = "BDNovelOpenSDK/other/*.a", "BDNovelOpenSDK/other/**/*.a", "BDNovelOpenSDK/novel/*.a", "BDNovelOpenSDK/novel/sdk/*.a"
+  s.ios.vendored_libraries = "BDNovelOpenSDK/other/*.a", "BDNovelOpenSDK/other/**/*.a", "BDNovelOpenSDK/novel/*.a", "BDNovelOpenSDK/novel/sdk/**/*.a"
   s.source_files = "BDNovelOpenSDK/include/*.h"
   s.public_header_files = "BDNovelOpenSDK/include/*.h"
   s.libraries = 'c++', 'resolv', 'z', 'sqlite3', 'bz2', 'xml2', 'c++abi'
