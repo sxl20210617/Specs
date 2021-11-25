@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-lObjC'] }
   s.module_name = 'LCDSDK'
+  s.header_dir = 'LCDSDK'
 
   s.frameworks = 'MetalKit', 'CoreMotion', 'SystemConfiguration', 'OpenAL', 'VideoToolbox','WebKit','Security'
   s.libraries = 'c++', 'z', 'iconv', 'xml2', 'bz2', 'c++abi'
